@@ -1,0 +1,2 @@
+require("derodepanda")
+print("Hello")
