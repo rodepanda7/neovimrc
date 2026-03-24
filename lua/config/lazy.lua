@@ -17,7 +17,6 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
   spec = {
-    -- This line tells lazy to load everything inside lua/plugins/*.lua
     { import = "plugins" },
   },
   install = { colorscheme = { "tokyonight-night" } },
